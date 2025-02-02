@@ -146,6 +146,7 @@ int parse_line(const wchar_t *line){
         wall->time = parse_time(ttime);
         if(wall->time == NULL) return ERR; //TODO: Fix memory leak here
         wall->UUID = (rand()%INT_MAX); //if it generates the same UUID as another wallahi
+        printf("%ls at time %ls\n", wall->fpath, ttime);
         warr_push(walls, wall);
         free(wall);
         free(ttime);
