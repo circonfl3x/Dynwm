@@ -114,6 +114,9 @@ int parse_line(const wchar_t *line){
                     enable_flag(LIGHTDARK);
                     Error("'Theme' mode isn't implemented yet",NULL);
                     return ERR;
+                }else{
+                    Error("Uknown mode '",content,"'",NULL);
+                    return ERR;
                 } 
             }else if(wcscmp(cmd, L"light") == 0){
                 if(check_flag(DYNAMIC) == 1){
