@@ -14,15 +14,15 @@ For example `:type "Dynamic"` specifies the type is dynamic (the argument is alw
 
 For the command for the wallpaper daemon, write the command as you would and then `${}` in place of the filepath. So:
 
-`:cmd "blah blah ${} blah blah`
+`:cmd "blah blah ${} blah blah"`
 
 Example with swww:
 
-`:cmd "swww img ${} ---transition-type=fade`
+`:cmd "swww img ${} ---transition-type=fade"`
 
 Example with swaybg:
 
-`:cmd swaybg -i ${}`
+`:cmd "swaybg -i ${}"`
 
 For the wallpapers' section, the beginning is marked by a `:begin` and the end by an `:end`, so:
 
