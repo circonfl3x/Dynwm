@@ -55,4 +55,4 @@ If it is directly on the hour, there is no need to specify the `00` or `0` so it
 `7=dir/name.jpg` if it is 07:00
 
 That's about all in terms of config for now.
-There is the other `:light "dir/name.jpg"` and the `:dark "dir/name.jpg"` for the `:type "Type"` but it isn't implemented for now
+There is the other `:light "dir/name.jpg"` and the `:dark "dir/name.jpg"` for the `:type "Theme"` but it isn't implemented for now
